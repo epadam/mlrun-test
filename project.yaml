@@ -1,1 +1,13 @@
-1234
+kind: project
+metadata:
+  name: test-root
+  created: '2022-07-06T01:14:18.599269'
+spec:
+  functions: []
+  workflows: []
+  artifacts: []
+  source: git://github.com/epadam/mlrun-test.git#refs/heads/master
+  origin_url: git://github.com/epadam/mlrun-test.git#main
+  desired_state: online
+status:
+  state: online
